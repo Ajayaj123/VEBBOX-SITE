@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="./bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+
+<head>
+    <title>VEBBOX solution</title>
+    <style>
+      
+
+        li:hover {
+            color: dodgerblue;
+
+        }
+
+        ul li {
+            list-style: none;
+            padding-right: 40px;
+        }
+
+        .but2 {
+            border-radius: 20px;
+            border: 0px;
+           
+            color: antiquewhite;
+        }
+
+        .but2:hover {
+            color: red;
+        }
+
+        .vebbox {
+            position: relative;
+            left: 80px;
+        }
+
+        .k {
+            position: relative;
+            left: 50px;
+            z-index: -1;
+        }
+
+        .h {
+            position: relative;
+            top: 50px;
+            right: 50px;
+            width: 600px;
+        }
+
+        .p1 {
+            position: relative;
+            padding-top: 50px;
+            right: 45px;
+
+        }
+
+        .but {
+            position: relative;
+            right: 550px;
+            bottom: 200px;
+            border-radius: 20px;
+            border: 01px;
+            /* border-color: rgb(6, 6, 244); */
+            background-color: dodgerblue;
+            color: white;
+            font-size: 20px;
+
+        }
+
+        .dv {
+            position: relative;
+            text-align: center
+        }
+
+        /* .p2 { 
+            position: relative;
+            bottom:20px;
+            left: 10px;
+        }*/
+        .h3 {
+            position: relative;
+            text-align: center;
+        }
+
+        .p4 {
+            position: relative;
+            text-align: center;
+        }
+
+        /* .zindex
+        {
+            position: absolute;
+  right: 1px;
+  z-index: -1;
+        } */
+
+
+        .earth {
+            position: relative;
+            left: 90px;
+        }
+
+        .x1 {
+            background-color: white;
+            position: relative;
+            bottom: 180px;
+            opacity: 0.7;
+        }
+
+        .g1 {
+            position: relative;
+            text-align: center;
+            left: 350px;
+            z-index: -1;
+        }
+
+        .bq {
+            position: relative;
+            text-align: center;
+        }
+
+        .dd1 {
+            text-align: center;
+        }
+
+        .v1 {
+            text-align: left;
+        }
+
+        .v2 {
+            text-align: left;
+        }
+
+        .u1 {
+            position: relative;
+            bottom: 60px;
+            right: 50px;
+        }
+
+        .u2 {
+            position: relative;
+            top: 90px;
+            left: 30px;
+        }
+
+        .u3 {
+            position: relative;
+            top: 90px;
+            left: 30px;
+        }
+
+        .uh {
+            text-align: center;
+            position: relative;
+            bottom: 90px;
+        }
+
+        .inp {
+            width: 350px;
+            height: 40px;
+        }
+
+        .inp1 {
+            width: 350px;
+            height: 80px;
+        }
+
+        .butt1 {
+            position: relative;
+            border-radius: 20px;
+            width: 150px;
+            height: 30px;
+            left: 90px;
+            color: white;
+            border: 0ch;
+            background-color: dodgerblue;
+        }
+
+        .ad1 {
+            position: relative;
+            left: 80px;
+        }
+
+        .p {
+          
+            position: sticky;
+            top: 0;
+            left:0;
+            z-index: 1;
+        }
+
+        .d3:hover {
+            color: dodgerblue;
+        }
+
+        .d4:hover {
+            color: dodgerblue;
+        }
+
+        .d5:hover {
+            color: dodgerblue;
+        }
+
+        .d6:hover {
+            color: dodgerblue;
+        }
+
+        .e1:hover {
+            color: dodgerblue;
+        }
+
+        .e2:hover {
+            color: dodgerblue;
+        }
+
+        .e3:hover {
+            color: dodgerblue;
+        }
+
+        .e4:hover {
+            color: dodgerblue;
+        }
+/* 
+        .d3 {
+            border-bottom: 2px;
+        } */
+
+        .d3 {
+            background-color: #fff;
+            margin-right: 50px;
+            box-shadow: 0px 18px 5px;
+            padding:30px 30px;
+            line-height: 20px;
+            box-sizing: content-box;
+            width: 50%;
+        }
+
+        .d4 {
+              
+                margin-right: 50px;
+                background-color: #fff;
+        
+            box-shadow: 0px 18px 5px;
+            padding:30px 30px;
+            line-height: 20px;
+            box-sizing: content-box;
+        }
+
+        .d5 {
+          
+            margin-right: 50px;
+            background-color: #fff;
+           
+            box-shadow: 0px 20px 22px;
+            padding:30px 50px;
+            line-height: 20px;
+            box-sizing: content-box;
+        }
+
+        .d6 {
+          
+            margin-right: 50px;
+            background-color: #fff;
+            
+            box-shadow: 0px 18px 5px;
+            padding:30px 30px;
+            line-height: 20px;
+            box-sizing: content-box;
+        }
+
+
+        .e1 {
+         
+           margin-right: 50px;
+           background-color: #fff;
+           
+            box-shadow: 0px 18px 5px;
+            padding:30px 30px;
+            line-height: 20px;
+            box-sizing: content-box;
+        }
+
+        .e2 {
+          
+            margin-right: 50px;
+            background-color: #fff;
+           
+            box-shadow: 0px 18px 5px;
+            padding:30px 30px;
+            line-height: 20px;
+            box-sizing: content-box;
+        }
+
+        .e3 {
+         
+           margin-right: 50px;
+           background-color: #fff;
+            
+            box-shadow: 0px 18px 5px;
+            padding:30px 30px;
+            line-height: 20px;
+            box-sizing: content-box;
+        }
+
+        .e4 {
+          
+            margin-right: 80px;
+            background-color: #fff;
+
+            box-shadow: 0px 18px 5px;
+            padding:30px 30px;
+            line-height: 20px;
+            box-sizing: content-box;
+        }
+
+        .div {
+            margin-right: 50px;
+            
+        }
+    </style>
+    <link rel="stylesheet" href="./bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light ">
+        <div class="container-fluid ">
+          <a class="navbar-brand offset-lg-1" href="#">
+            <img src="./LOGO (1).png" width="100px" height="40px" class="vebbox">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse offset-lg-3 " id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item ">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SERVICE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PRODUCT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">TEAM</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-primary">GET STARTED</button> 
+              </li>
+    
+            </ul>
+          </div>
+        </div>
+      </nav> 
+    <!-- <div class="container-fluid p">
+        <div class="row">
+            <div class="col-lg-12 col-md-6 col-sm-12">
+                <img src="./LOGO (1).png" width="100px" height="40px" class="vebbox">
+            </div>
+            <div class="col">
+                <ul>
+                    <li>HOME</li>
+                    <li>SERVICE</li>
+                    <li>PRODUCT</li>
+                    <li>TEAM</li>
+                    <li>ABOUT US</li>
+                    <li> <button class="but2">GET STARTED</button> </li>
+                </ul>
+            </div>
+        </div>
+    </div> -->
+    <div class="container">
+        <div class="row">
+            <div class=" col-lg-6 col-md-6 col-sm-12 d ">
+                <h1 class="h">
+                    Grow your business with VEBBOX
+                </h1>
+                <p class="p1">We are team of talented developers making Excellent Solutions to business</p>
+
+            </div>
+            <div class="col-lg-6 col-md-6  col-sm-12 k">
+                <img src="./img2.png">
+                <button class="but">GET STARTED</button>
+            </div>
+        </div>
+    </div>
+    <div class="dv">
+
+        <h1>SERVICE</h1>
+        <P class="p12">Our software development services</P>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-2  col-md-6 col-sm-12 d3 ">
+                <img src="./earth.png" width="50px" height="40px" class="earth">
+                
+                    <h4> Custom Application Development Services</h4>
+                    <p>We rely on our technological expertise and specialized industry experience to develop
+                        any
+                        type
+                        of web, mobile, desktop, and hybrid app per your business requirements.
+                    </p>
+                
+            </div>
+
+            <div class=" col-lg-2 col-md-6 col-sm-12  d4">
+                <img src="./earth.png" width="50px" height="40px" class="earth">
+                <h4>
+                    App Maintenance<br> Services</h4>
+                <p>
+                    App Maintenance Services<br>
+                    Our application maintenance <br>and modernization services are <br>designed to ensure the
+                    <br>scalability,
+                    performance, <br>and sustainability of your <br>entire software infrastructure <br>as your business
+                    grows.
+                </p>
+            </div>
+            <div class=" col-lg-2 col-md-6  col-sm-12 d5">
+                <img src="./earth.png" width="50px" height="40px" class="earth">
+                <h4>
+                    QA and Software <br>Testing Services</h4>
+                <p>
+
+                    QA and Software<br> Testing Services
+                    <br>Comprehensive quality assurance is <br>built into our custom <br>software service model,<br> but
+                    we can
+                    also provide <br>on-demand QA and a suite <br>of functional and usability<br> software tests upon
+                    request.
+                </p>
+            </div>
+            <div class="col-lg-2 col-md-6  col-sm-12  d6">
+                <img src="./earth.png" width="50px" height="40px" class="earth">
+                <h4>
+                    API<br>Integration Services</h4>
+                <p>We build <br>and implement custom <br>APIs for all breeds of<br> applications, helping to<br> add
+                    functionality to <br>your software systems and <br>facilitate communication<br> between your
+                    apps
+                    and<br> others.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-2 col-md-6  col-sm-12  e1">
+                <img src="./earth.png" width="50px" height="40px" class="earth">
+                <h4>
+                    IT Security <br>Services</h4>
+                <p>Our thorough threat<br> audits help us<br> identify your software <br>infrastructure's most
+                    <br>pressing
+                    vulnerabilities,<br> allowing us to <br>integrate the encryptions, <br>security services and
+                    <br>access
+                    protocols you require.
+                </p>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-12  e2">
+                <img src="./earth.png" width="50px" height="40px" class="earth">
+                <h4>
+                    Software Deployment <br>Services</h4>
+                <p>Our implementation <br>specialists will work<br> with your IT team to<br> establish detailed
+                    <br>software
+                    deployment <br>objectives and timelines, <br>covering configuration, <br>testing, project
+                    governance,<br> troubleshooting and more.
+                </p>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-12 e3">
+                <img src="./earth.png" width="50px" height="40px" class="earth">
+                <h4>
+                    Data Backup and <br>Recovery Services</h4>
+                <p>
+                    Data Backup and<br> Recovery Services
+                    We implement <br>robust data backup <br>and recovery strategies <br>for cloud-based, on-<br>premises
+                    and
+                    hybrid servers,<br> designed to ensure the integrity <br>of your data and the <br>continuity of your
+                    business</p>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-12  e4">
+                <img src="./earth.png" width="50px" height="40px" class="earth">
+                <h4>
+                    Data Backup and <br>Recovery Services</h4>
+                <p>We implement<br> robust data<br> backup and recovery <br>strategies for cloud-based,
+                    <br>on-premises
+                    and hybrid <br>servers, designed to <br>ensure the integrity <br>of your data and the
+                    <br>continuity
+                    of your business.
+                </p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div>
+            <h1 class="h3">PROJECT</h1>
+            <p class="p4">People don't buy products, they buy solutions</p>
+            <div class="container p-3">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 f1">
+                        <img src="./1 (4).jpeg" width="540px" height="440px" class="zindex">
+                        <div class="x1">
+                            <h1 class="dd">Data Analyzer
+                            </h1>
+                            <p class="pp">The systematic application of statistical<br> and logical techniques to
+                                describe the
+                                data scope, modularize<br> the data structure illustrate via images, tables, and graphs.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-6 col-md-6  col-sm-12 f2">
+
+                        <img src="./1 (3).jpeg" width="540px" height="440px" class="zindex">
+                        <div class="x1">
+                            <h1 class="ee">Websites</h1>
+                            <p class="ee1">We create a enhanced website, customers can easily access information<br>
+                                about your business. They can see what products or<br> services you sell, your
+                                prices,
+                                your location and much more.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-6 col-md-6 col-sm-12 f4">
+                        <img src="./1 (2).jpeg" width="540px" height="440px" class="zindex">
+                        <div class="x1">
+                            <h1 class="ffff">
+                                Billing Software
+                            </h1>
+                            <p class="ffff1">A billing software can be any software designed to <br>handle time
+                                and billing tracking as well as invoicing customers <br>for services and
+                                products.
+                            </p>
+                        </div>
+                    </div>
+ <div class="col-lg-6 col-md-6 col-sm-12 f3">
+                        <img src="./1 (1).jpeg" width="540px" height="440px" class="zindex">
+                        <div class="x1">
+                            <h1 class="fff">Industrial Trainings</h1>
+                            <p class="fff1">Our Industrial Training is to expose the students to actual
+                                working<br>
+                                environment and enhance their knowledge and skill from what <br>they have learned in
+                                the
+                                college.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="container">
+                <div class="row">
+                    <!-- <div class="col-lg-12 col-sm-12 g1">
+                        <h1>TEAM</h1>
+                        <p>Teamwork is the ability to work together toward a common vision.</p>
+                        <img src="./team-1.jpg" width="350px" height="400px">
+                        <h3 class="">Vignesh V</h3>
+                        <p> Chief Executive Officer</p>
+                        
+                    </div> -->
+                    <h1 class="bq">TEAM</h1>
+                    <div class="col-lg-12 col-md-6  col-sm-12 g1" style="width: 24rem; height: 33rem;">
+
+                        <img src="./team-1.jpg" width="350px" height="400px">
+                        <div class="card-body">
+                            <h3 class="">Vignesh V</h3>
+                            <p class="card-text"><strong class="h6"> Chief Executive Officer</strong>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <br><br><br>
+                <div class="dd1">
+                    <h1>ABOUT US</h1>
+                    <br>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6  col-md-6 col-sm-12 v1">
+                                We are consummate custom software Development company delivering splendid business IT
+                                Solutions and related services to customers across the globe. Our development services
+                                are
+                                led by our dedicated and passionate team to provide best industry practices combined
+                                with
+                                technology expertise and business domain knowledge to drive digital transformation.
+                            </div>
+                            <div class="col-lg-6 col-md-6  col-sm-12 v2">
+                                Our proficiency in understanding business challenges and professional competence allows
+                                us
+                                to create a better expwerience for our customers. Our efforts focus on concept, design,
+                                development and re-engineering of web businesses. We are working closely with software
+                                majors on new applications.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12 u1 ">
+                            <img src="./coun.svg" width="430px" height="530px">
+                        </div>
+                        <div class="col-lg-4 col-sm-12 u2">
+                            <h1><img src="./1 (5).jpeg" width="30px"> 25</h1>
+
+                            <p>Happy Clients A satisfied customer is the best bussiness goal.</p>
+
+                            <h1><img src="./1 (6).jpeg" width="30px">12</h1>
+                            <p>Working Technologies We help enterprises accelerate adoption of new technologies, produce
+                                innovation.</p>
+
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 u3">
+                            <h1><img src="./1 (6).jpeg" alt="" width="30px">135</h1>
+                            <p>Projects we build projects with satisfied customers</p>
+                            <h1><img src="./1 (7).jpeg" alt="" width="30px"> 25</h1>
+                            <p>Developers Our skilled technicians and engineers to implement the new technologies.</p>
+                        </div>
+                      </div>
+                </div>
+                <div> <h1 class="uh">CONTACT US</h1></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6  col-sm-12">
+                            <h1>VEBBOX</i></h1>
+                            <p>Our mission is to enhance business growth of our customers with creative design,
+                                development
+                                and to deliver market defining high quality solutions that create value and reliable
+                                competitive advantage to customers around the globe.</p>
+                        </div>
+                        <div class="col-lg-4  col-md-6 col-sm-12 ad1">
+                            <address>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-archive" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1V2zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5H2zm13-3H1v2h14V2zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                                </svg><i class="bi bi-archive">14, Mothilal St, (2nd Floor), <br>Opposite to BSNL office
+                                    near<br> chennai silks,<br>
+                                    Kumbakonam, 612001 <br><br>info@vebbox.in <br><br><i class="fas fa-dragon"></i>
+                                    <i class="ri-phone-line">+91 8678 980 860</i> </i>
+                            </address>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <form>
+                                <input type="text" placeholder="Your name" class="inp"><br><br>
+                                <input type="text" placeholder="Your email" class="inp"><br><br>
+                                <input type="text" placeholder="subject" class="inp"><br><br>
+                                <input type="text" placeholder="message" class="inp1"><br><br>
+                                <button class="butt1">send message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <script src="./bootstrap-5.2.0-beta1-dist/js/bootstrap.js"></script>
+</body>
+
+</html>
